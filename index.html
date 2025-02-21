@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>冯一鸣 - 简历</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "华文黑体", Arial, sans-serif;
+            color: #333333;
+            background-color: #f5f5f5;
+            width: 100vw;
+            height: 100vh;
+            box-sizing: border-box;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            font-size: 3em;
+            margin: 0;
+            color: #4a4a4a;
+        }
+
+        .header p {
+            font-size: 1.2em;
+            color: #777;
+            margin-top: 0.5em;
+        }
+
+        .section {
+            margin-bottom: 30px;
+            padding: 20px;
+            border-left: 4px solid #9b59b6;
+        }
+
+        .section h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            color: #4a4a4a;
+        }
+
+        .section ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .section li {
+            margin-bottom: 8px;
+            line-height: 1.5;
+        }
+
+        .work-experience-item, .project-item, .campus-experience-item {
+            margin-bottom: 20px;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+
+        .work-experience-company, .project-title, .campus-experience-title {
+            font-size: 1.1em;
+            color: #4a4a4a;
+            margin-bottom: 10px;
+        }
+
+        .work-experience-period, .project-date, .campus-experience-period {
+            color: #777;
+            font-size: 0.9em;
+            margin-bottom: 10px;
+        }
+
+        .skills {
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-top: 30px;
+        }
+
+        .skills h3 {
+            color: #4a4a4a;
+            margin-bottom: 15px;
+        }
+
+        .skills-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 15px;
+            margin-top: 10px;
+        }
+
+        .skill-item {
+            background-color: #4a4a4a;
+            color: white;
+            padding: 8px 15px;
+            text-align: center;
+            border-radius: 20px;
+        }
+
+        a {
+            color: #9b59b6;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>冯一鸣</h1>
+            <p>电话: 15568986142 | <a href="mailto:fengym0920@163.com" target="_blank">Email: fengym0920@163.com</a> </p>
+            <p>出生日期: 2002.01.03 | 政治面貌: 中国党员</p>
+        </div>
+
+        <!-- 技能与证书 -->
+        <div class="skills">
+            <h3>技能与证书</h3>
+            <div class="skills-list">
+                <div class="skill-item">Python</div>
+                <div class="skill-item">Excel</div>
+                <div class="skill-item">SQL</div>
+                <div class="skill-item">Tableau</div>
+                <div class="skill-item">CET6-548</div>
+                <div class="skill-item">雅思（7.0）</div>
+                <div class="skill-item">计算机二级</div>
+            </div>
+        </div>
+
+        <!-- 实习经历 -->
+        <div class="section">
+            <h2>实习经历</h2>
+            <div class="work-experience-item">
+                <div class="work-experience-company">中国联通国际有限公司（香港）</div>
+                <div class="work-experience-period">2024.09 - 2024.12</div>
+                <div class="work-experience-position">数据稽查实习生</div>
+                <p>主要负责，客户数据汇总、开户数据稽查、员工行为监控、门店合约数据检查和质量反馈</p>
+                <ul>
+                    <li>客户数据汇总与稽查：每天负责对香港21家联通门店的客户开户营业数据进行汇总、整合、筛选与稽查，处理的数据量约为每日210条销售记录，确保数据的准确性和完整性</li>
+                    <li>客户合约数据检查与修正：每3天的周期内，对香港区域的客户合约数据进行检查和修正，涵盖时间、价格等信息，每个周期的数据量约为1500行Excel数据，总计稽查4500+项数据</li>
+                    <li>结合21家门店数据，制作相关数据报表，内容涵盖公司业务套餐数据统计报表，门店人员人事数据（出勤，考核）报表等工作内容</li>
+                </ul>
+            </div>
+
+            <div class="work-experience-item">
+                <div class="work-experience-company">科大讯飞股份有限公司</div>
+                <div class="work-experience-period">2023.12 - 2024.03</div>
+                <div class="work-experience-position">数据资源实习生</div>
+                <p>主要负责，模型构建与优化、交互数据构建、数据质量控制、标准规范制定、复盘等工作内容</p>
+                <ul>
+                    <li>模型构建与优化：参与大语言模型优化。专注于prompt重构与答案质量提升，构建了280组*5条的高质量的用户问答数据集，优化模型输出能力</li>
+                    <li>数据质量控制：实施质量控制，依据企业级规范检查数据集，通过“思维链引导”（CoT）策略提升模型输出质量，确保数据满足模型训练标准</li>
+                    <li>标准规范制定：与团队合作制定超过50条数据质量评判标准与规范细则，提高数据质量和模型响应精准度</li>
+                    <li>质量反馈循环：执行日产出总结与复盘，形成日报，持续监控数据质量，为模型迭代提供反馈</li>
+                </ul>
+            </div>
+
+            <div class="work-experience-item">
+                <div class="work-experience-company">吉林省高速公路集团有限公司</div>
+                <div class="work-experience-period">2022.07 - 2022.08</div>
+                <div class="work-experience-position">组织人事实习生</div>
+                <p>主要负责，优化人力资源体系、组织文化建设等工作内容</p>
+                <ul>
+                    <li>优化人力资源体系：优化并完善公司人力资源管理体系，包括组织设计、招聘与培训、绩效管理、薪酬福利等核心内容，参与该公司组织人事部门的工作流程优化项目，完成了本部门全面的人事工作流程图编辑任务，涵盖绩效评估流程、员工晋升与任命流程、招聘流程等15项具体流程的关键环节，共计绘制流程图82页</li>
+                    <li>组织文化建设：针对团队实际情况，清晰建设活动程序，协助部门管理者开展团队文化建设等组织氛围建设工作，不断提高团队凝聚力</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 项目经历 -->
+        <div class="section">
+            <h2>项目经历</h2>
+            <div class="project-item">
+                <div class="project-title">长春市二手房数据分析</div>
+                <div class="project-date">2023.10 - 2023.11</div>
+                <div class="project-role">负责人</div>
+                <p>项目背景：通过对长春市二手房市场数据的收集和分析，为利益相关者提供有价值的市场洞察和决策支持</p>
+                <p>主要职责：</p>
+                <ul>
+                    <li>使用Python从58安居客网站获取长春二手房市场的数据，共5000项数据，并进行数据清理，确保分析的准确性</li>
+                    <li>对二手房市场的背景、价格走势和相关性进行分析，利用可视化工具展示区域、面积、楼层等因素对房价的影响，并根据分析结果提出购房建议，制作了房屋成本与价值矩阵四象限图</li>
+                </ul>
+                <p>项目成果：揭示了影响市场的关键因素，为购房者提供了数据驱动的购房建议，通过数据可视化使复杂的市场数据易于理解和洞察</p>
+            </div>
+
+            <div class="project-item">
+                <div class="project-title">中国航海史数据库构建与智能检索系统开发</div>
+                <div class="project-date">2023.02 - 2023.06</div>
+                <div class="project-role">总负责人</div>
+                <p>项目背景：该项目旨在构建一个包含中国航海历史信息的数据库，并开发智能检索系统，方便用户高效查找和使用相关数据</p>
+                <p>主要职责：</p>
+                <ul>
+                    <li>利用Navicat工具进行数据库的设计和实现。通过网络信息收集，存储约6000项有价值的相关数据，后续进行数据结构优化</li>
+                    <li>结合DreamWeaver的界面设计、数据库绑定以及记录集功能、HTML表单结合PHP的响应功能，整合前端设计、后端处理及数据库管理。利用DreamWeaver记录集与Navicat数据库管理的结合，实现了智能化、高准确度的数据检索</li>
+                    <li>通过亲自参与关键技术环节，示范最佳实践，指导团队成员，促进团队在数据库设计、前后端开发等多方面技能的提升</li>
+                </ul>
+                <p>项目成就：成功构建了包含中国航海历史信息的数据库，确保了数据的高精度检索和用户体验</p>
+            </div>
+        </div>
+
+        <!-- 校园经历 -->
+        <div class="section">
+            <h2>校园经历</h2>
+            <div class="campus-experience-item">
+                <div class="campus-experience-title">吉林大学</div>
+                <div class="campus-experience-period">2021.01 - 2024.07</div>
+                <div class="campus-experience-position">行政班班长</div>
+                <p>主要负责，组织同学，协调会议，上传下达</p>
+                <ul>
+                    <li>活动组织：负责校内《年度团日活动》、《寝室文化节》、《新生见面会》及毕业生拍摄聚餐等大型活动的组织工作，包括布置活动场地、跟进活动流程、统筹活动进程等。总计组织活动10个，总计参与人数800+人，荣获学校2021年度“最佳先进个人奖”</li>
+                    <li>外联协调：带领本班30人的团队完成本院年度团日活动的组织与执行。在对外交流方面，全权负责团日活动的外联任务，成功与中博教育公司建立了合作，并有效协调本年级12个班级400余人的时间安排，确保了外联活动的顺利进行，参与外联互动的人数达300+人</li>
+                    <li>大会执行：担任《寝室文化节》晚会总负责人，精心设计晚会流程并亲自参与主持工作，确保各个环节流畅衔接。期间原创游戏环节极大地调动了现场气氛，最终辐射本院新生200+人次</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
